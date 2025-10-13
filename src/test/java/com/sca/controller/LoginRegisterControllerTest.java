@@ -38,7 +38,7 @@ public class LoginRegisterControllerTest {
 	private LoginRequest loginRequest;
 
 	@BeforeEach
-	public void setup() {
+	void setup() {
 		objectMapper = new ObjectMapper();
 
 		userRequest = new UserRequest();
@@ -52,7 +52,7 @@ public class LoginRegisterControllerTest {
 	}
 
 	@Test
-	public void testRegister_Success() throws Exception {
+	void testRegister_Success() throws Exception {
 		Mockito.when(userService.register(any(UserRequest.class))).thenReturn("Registration Successfully..!!");
 
 		mockMvc.perform(post("/api/auth/register").contentType(MediaType.APPLICATION_JSON)
@@ -61,7 +61,7 @@ public class LoginRegisterControllerTest {
 	}
 
 	@Test
-	public void testLogin_Success() throws Exception {
+	void testLogin_Success() throws Exception {
 		LoginResponse response = new LoginResponse(1, true, "Login successful", "Test User");
 
 		Mockito.when(userService.login(anyString(), anyString())).thenReturn(response);
@@ -73,7 +73,7 @@ public class LoginRegisterControllerTest {
 	}
 
 	@Test
-	public void testLogin_Failure() throws Exception {
+	void testLogin_Failure() throws Exception {
 		LoginResponse response = new LoginResponse(0, false, "Incorrect password", null);
 
 		Mockito.when(userService.login(anyString(), anyString())).thenReturn(response);

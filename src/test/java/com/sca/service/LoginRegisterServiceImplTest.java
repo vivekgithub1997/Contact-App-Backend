@@ -30,7 +30,7 @@ public class LoginRegisterServiceImplTest {
 	private User mockUser;
 
 	@BeforeEach
-	public void setup() {
+	void setup() {
 		MockitoAnnotations.openMocks(this);
 
 		userRequest = new UserRequest();
@@ -48,7 +48,7 @@ public class LoginRegisterServiceImplTest {
 	}
 
 	@Test
-	public void testRegister_UserAlreadyExists() {
+	void testRegister_UserAlreadyExists() {
 		when(userRepository.findByEmail(userRequest.getEmail())).thenReturn(Optional.of(mockUser));
 
 		String result = loginRegisterService.register(userRequest);
@@ -57,7 +57,7 @@ public class LoginRegisterServiceImplTest {
 	}
 
 	@Test
-	public void testRegister_SuccessfulRegistration() {
+	void testRegister_SuccessfulRegistration() {
 		when(userRepository.findByEmail(userRequest.getEmail())).thenReturn(Optional.empty());
 		when(passwordEncoder.encode(userRequest.getPassword())).thenReturn("encodedPassword");
 		when(userRepository.save(any(User.class))).thenReturn(mockUser);
@@ -68,7 +68,7 @@ public class LoginRegisterServiceImplTest {
 	}
 
 	@Test
-	public void testRegister_FailureToSaveUser() {
+	void testRegister_FailureToSaveUser() {
 		when(userRepository.findByEmail(userRequest.getEmail())).thenReturn(Optional.empty());
 		when(passwordEncoder.encode(userRequest.getPassword())).thenReturn("encodedPassword");
 		when(userRepository.save(any(User.class))).thenReturn(null);
@@ -79,7 +79,7 @@ public class LoginRegisterServiceImplTest {
 	}
 
 	@Test
-	public void testLogin_SuccessfulLogin() {
+	void testLogin_SuccessfulLogin() {
 		when(userRepository.findByEmail("test@example.com")).thenReturn(Optional.of(mockUser));
 		when(passwordEncoder.matches("password123", mockUser.getPassword())).thenReturn(true);
 
@@ -91,7 +91,7 @@ public class LoginRegisterServiceImplTest {
 	}
 
 	@Test
-	public void testLogin_IncorrectPassword() {
+	void testLogin_IncorrectPassword() {
 		when(userRepository.findByEmail("test@example.com")).thenReturn(Optional.of(mockUser));
 		when(passwordEncoder.matches("wrongpassword", mockUser.getPassword())).thenReturn(false);
 
@@ -103,7 +103,7 @@ public class LoginRegisterServiceImplTest {
 	}
 
 	@Test
-	public void testLogin_UserNotFound() {
+	void testLogin_UserNotFound() {
 		when(userRepository.findByEmail("unknown@example.com")).thenReturn(Optional.empty());
 
 		LoginResponse response = loginRegisterService.login("unknown@example.com", "password123");

@@ -18,11 +18,15 @@ public class LoginRegisterServiceImpl implements LoginRegisterService {
 
 	private static final Logger logger = LoggerFactory.getLogger(LoginRegisterServiceImpl.class);
 
-	@Autowired
 	private UserRepository userRepository;
 
-	@Autowired
 	private BCryptPasswordEncoder passwordEncoder;
+
+	public LoginRegisterServiceImpl(UserRepository userRepository, BCryptPasswordEncoder passwordEncoder) {
+		super();
+		this.userRepository = userRepository;
+		this.passwordEncoder = passwordEncoder;
+	}
 
 	@Override
 	public String register(UserRequest userRequest) {
@@ -53,14 +57,13 @@ public class LoginRegisterServiceImpl implements LoginRegisterService {
 
 	@Override
 	public LoginResponse login(String email, String password) {
-		
 
 		Optional<User> userOpt = userRepository.findByEmail(email);
 
 		if (userOpt.isPresent()) {
 			User user = userOpt.get();
 			if (passwordEncoder.matches(password, user.getPassword())) {
-				
+
 				return new LoginResponse(user.getId(), true, "Login successful", user.getName());
 			} else {
 				logger.warn("Login failed: Incorrect password for email: {}", email);
