@@ -56,6 +56,7 @@ class UserControllerTest {
 		assertEquals("Failed to add contact", result.getBody().getMessage());
 	}
 
+	
 	@Test
 	void testGetAllContactsSuccess() {
 		FetchContactResponse<java.util.List<Contact>> response = new FetchContactResponse<>(true, "Success",

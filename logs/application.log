@@ -1,24 +1,25 @@
-2025-10-13 09:04:06 INFO  [restartedMain] com.sca.SmartContactAppApplication - Starting SmartContactAppApplication using Java 17.0.11 with PID 35264 (C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App\target\classes started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
-2025-10-13 09:04:06 DEBUG [restartedMain] com.sca.SmartContactAppApplication - Running with Spring Boot v3.4.10, Spring v6.2.11
-2025-10-13 09:04:06 INFO  [restartedMain] com.sca.SmartContactAppApplication - No active profile set, falling back to 1 default profile: "default"
-2025-10-13 09:04:06 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-10-13 09:04:06 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-10-13 09:04:07 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-13 09:04:07 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
-2025-10-13 09:04:08 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
-2025-10-13 09:04:08 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-10-13 09:04:08 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-10-13 09:04:08 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-10-13 09:04:08 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1895 ms
-2025-10-13 09:04:08 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-13 09:04:08 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-10-13 09:04:08 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-10-13 09:04:09 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-13 09:04:09 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-10-13 09:04:09 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@412947c0
-2025-10-13 09:04:09 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-10-13 09:04:09 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-10-13 09:04:09 INFO  [restartedMain] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-10-24 09:13:38 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h30m57s838ms645µs200ns).
+2025-10-24 09:32:15 INFO  [restartedMain] com.sca.SmartContactAppApplication - Starting SmartContactAppApplication using Java 17.0.11 with PID 27568 (C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App\target\classes started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
+2025-10-24 09:32:15 DEBUG [restartedMain] com.sca.SmartContactAppApplication - Running with Spring Boot v3.4.10, Spring v6.2.11
+2025-10-24 09:32:15 INFO  [restartedMain] com.sca.SmartContactAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-24 09:32:15 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-24 09:32:15 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-24 09:32:16 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-24 09:32:16 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2025-10-24 09:32:17 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-24 09:32:17 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-24 09:32:17 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-24 09:32:17 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-24 09:32:17 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2065 ms
+2025-10-24 09:32:17 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-24 09:32:17 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-24 09:32:17 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-24 09:32:18 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-24 09:32:18 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-24 09:32:19 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@333531e5
+2025-10-24 09:32:19 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-24 09:32:19 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-24 09:32:19 INFO  [restartedMain] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.5
@@ -26,454 +27,39 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-13 09:04:11 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-13 09:04:11 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 09:04:11 INFO  [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-10-13 09:04:12 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-13 09:04:12 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-10-13 09:04:12 WARN  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-10-13 09:04:12 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2025-10-13 09:04:12 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
-2025-10-13 09:04:12 INFO  [restartedMain] com.sca.SmartContactAppApplication - Started SmartContactAppApplication in 6.834 seconds (process running for 7.722)
-2025-10-13 09:04:58 INFO  [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-13 09:04:58 INFO  [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-10-13 09:04:58 INFO  [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-2025-10-13 09:04:58 INFO  [http-nio-8081-exec-2] c.s.c.LoginRegisterController - Login attempt for email: yashckt1997@gmail.com
-2025-10-13 09:04:58 INFO  [http-nio-8081-exec-2] c.s.c.LoginRegisterController - Login successful for user: Vivek Raikawar
-2025-10-13 09:05:48 INFO  [http-nio-8081-exec-4] c.s.c.LoginRegisterController - Received registration request for email: yashckt1997@gmail.com
-2025-10-13 09:05:48 INFO  [http-nio-8081-exec-4] c.s.service.LoginRegisterServiceImpl - Attempting to register user with email: yashckt1997@gmail.com
-2025-10-13 09:05:48 WARN  [http-nio-8081-exec-4] c.s.service.LoginRegisterServiceImpl - Registration failed: Email already registered - yashckt1997@gmail.com
-2025-10-13 09:05:48 WARN  [http-nio-8081-exec-4] c.s.c.LoginRegisterController - Registration failed: User with this email is already registered.
-2025-10-13 09:12:29 INFO  [http-nio-8081-exec-5] c.s.c.LoginRegisterController - Login attempt for email: yashckt1997@gmail.com
-2025-10-13 09:12:29 INFO  [http-nio-8081-exec-5] c.s.c.LoginRegisterController - Login successful for user: Vivek Raikawar
-2025-10-13 09:12:32 INFO  [http-nio-8081-exec-6] com.sca.controller.UserController - Fetching contacts for userId: 202
-2025-10-13 09:12:32 INFO  [http-nio-8081-exec-6] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
-2025-10-13 09:12:32 INFO  [http-nio-8081-exec-6] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
-2025-10-13 09:12:32 INFO  [http-nio-8081-exec-6] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
-2025-10-13 09:13:11 INFO  [http-nio-8081-exec-7] com.sca.controller.UserController - Fetching contacts for userId: 202
-2025-10-13 09:13:11 INFO  [http-nio-8081-exec-7] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
-2025-10-13 09:13:11 INFO  [http-nio-8081-exec-7] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
-2025-10-13 09:13:11 INFO  [http-nio-8081-exec-7] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
-2025-10-13 09:36:19 INFO  [RMI TCP Connection(34)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-2025-10-13 09:36:19 INFO  [RMI TCP Connection(34)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-13 09:36:20 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-10-13 09:36:20 INFO  [RMI TCP Connection(34)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 09:36:20 INFO  [RMI TCP Connection(34)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-10-13 09:36:20 INFO  [RMI TCP Connection(34)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-10-13 11:58:59 INFO  [main] c.s.c.LoginRegisterControllerTest - Starting LoginRegisterControllerTest using Java 17.0.11 with PID 35992 (started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
-2025-10-13 11:58:59 DEBUG [main] c.s.c.LoginRegisterControllerTest - Running with Spring Boot v3.4.10, Spring v6.2.11
-2025-10-13 11:58:59 INFO  [main] c.s.c.LoginRegisterControllerTest - No active profile set, falling back to 1 default profile: "default"
-2025-10-13 11:59:04 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
-
-Using generated security password: 7ff9cb0a-941b-4d60-9101-d36a5abfb0cf
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2025-10-13 11:59:04 INFO  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-10-13 11:59:04 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
-2025-10-13 11:59:04 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
-2025-10-13 11:59:04 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
-2025-10-13 11:59:04 INFO  [main] c.s.c.LoginRegisterControllerTest - Started LoginRegisterControllerTest in 6.491 seconds (process running for 9.18)
-2025-10-13 11:59:05 INFO  [main] c.s.c.LoginRegisterController - Login attempt for email: test@example.com
-2025-10-13 11:59:05 INFO  [main] c.s.c.LoginRegisterController - Login successful for user: Test User
-2025-10-13 11:59:05 INFO  [main] c.s.c.LoginRegisterController - Login attempt for email: test@example.com
-2025-10-13 11:59:05 WARN  [main] c.s.c.LoginRegisterController - Login failed for email: test@example.com. Reason: Incorrect password
-2025-10-13 11:59:05 INFO  [main] c.s.c.LoginRegisterController - Received registration request for email: test@example.com
-2025-10-13 11:59:05 INFO  [main] c.s.c.LoginRegisterController - Registration successful for email: test@example.com
-2025-10-13 11:59:05 INFO  [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sca.SmartContactAppApplicationTests]: SmartContactAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-10-13 11:59:05 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sca.SmartContactAppApplication for test class com.sca.SmartContactAppApplicationTests
-2025-10-13 11:59:05 INFO  [main] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
-2025-10-13 11:59:05 INFO  [main] c.s.SmartContactAppApplicationTests - Starting SmartContactAppApplicationTests using Java 17.0.11 with PID 35992 (started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
-2025-10-13 11:59:05 DEBUG [main] c.s.SmartContactAppApplicationTests - Running with Spring Boot v3.4.10, Spring v6.2.11
-2025-10-13 11:59:05 INFO  [main] c.s.SmartContactAppApplicationTests - No active profile set, falling back to 1 default profile: "default"
-2025-10-13 11:59:06 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-13 11:59:06 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 122 ms. Found 2 JPA repository interfaces.
-2025-10-13 11:59:07 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-13 11:59:07 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-10-13 11:59:07 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-10-13 11:59:08 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-13 11:59:08 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-10-13 11:59:09 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@29ab4fa0
-2025-10-13 11:59:09 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-10-13 11:59:09 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-10-13 11:59:09 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.5
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-10-13 11:59:11 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-13 11:59:12 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 11:59:12 INFO  [main] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-10-13 11:59:14 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-13 11:59:14 INFO  [main] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-10-13 11:59:14 WARN  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-10-13 11:59:14 INFO  [main] c.s.SmartContactAppApplicationTests - Started SmartContactAppApplicationTests in 9.54 seconds (process running for 19.381)
-2025-10-13 11:59:14 INFO  [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sca.service.ContactServiceImplTest]: ContactServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-10-13 11:59:15 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sca.SmartContactAppApplication for test class com.sca.service.ContactServiceImplTest
-2025-10-13 11:59:15 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 101 for userId: 1
-2025-10-13 11:59:15 WARN  [main] com.sca.service.ContactServiceImpl - User not found with ID: 1
-2025-10-13 11:59:15 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to add contact for userId: 1
-2025-10-13 11:59:15 WARN  [main] com.sca.service.ContactServiceImpl - User not found with ID: 1
-2025-10-13 11:59:15 INFO  [main] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 1
-2025-10-13 11:59:15 INFO  [main] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 1
-2025-10-13 11:59:15 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 101 for userId: 1
-2025-10-13 11:59:15 WARN  [main] com.sca.service.ContactServiceImpl - Contact does not belong to userId: 1
-2025-10-13 11:59:15 INFO  [main] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 1
-2025-10-13 11:59:15 WARN  [main] com.sca.service.ContactServiceImpl - User not found with ID: 1
-2025-10-13 11:59:15 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to add contact for userId: 1
-2025-10-13 11:59:15 INFO  [main] com.sca.service.ContactServiceImpl - Contact added successfully for userId: 1
-2025-10-13 11:59:15 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 101 for userId: 1
-2025-10-13 11:59:15 INFO  [main] com.sca.service.ContactServiceImpl - Contact deleted successfully. cid: 101, userId: 1
-2025-10-13 11:59:15 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 101 for userId: 1
-2025-10-13 11:59:15 WARN  [main] com.sca.service.ContactServiceImpl - Contact not found with cid: 101
-2025-10-13 11:59:15 INFO  [main] c.s.service.LoginRegisterServiceImpl - Attempting to register user with email: test@example.com
-2025-10-13 11:59:15 INFO  [main] c.s.service.LoginRegisterServiceImpl - User registered successfully: test@example.com
-2025-10-13 11:59:15 WARN  [main] c.s.service.LoginRegisterServiceImpl - Login failed: User not found with email: unknown@example.com
-2025-10-13 11:59:15 WARN  [main] c.s.service.LoginRegisterServiceImpl - Login failed: Incorrect password for email: test@example.com
-2025-10-13 11:59:15 INFO  [main] c.s.service.LoginRegisterServiceImpl - Attempting to register user with email: test@example.com
-2025-10-13 11:59:15 ERROR [main] c.s.service.LoginRegisterServiceImpl - User registration failed for email: test@example.com
-2025-10-13 11:59:15 INFO  [main] c.s.service.LoginRegisterServiceImpl - Attempting to register user with email: test@example.com
-2025-10-13 11:59:15 WARN  [main] c.s.service.LoginRegisterServiceImpl - Registration failed: Email already registered - test@example.com
-2025-10-13 11:59:18 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 11:59:18 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-10-13 11:59:18 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-10-13 12:01:09 INFO  [main] c.s.c.LoginRegisterControllerTest - Starting LoginRegisterControllerTest using Java 17.0.11 with PID 36520 (started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
-2025-10-13 12:01:09 DEBUG [main] c.s.c.LoginRegisterControllerTest - Running with Spring Boot v3.4.10, Spring v6.2.11
-2025-10-13 12:01:09 INFO  [main] c.s.c.LoginRegisterControllerTest - No active profile set, falling back to 1 default profile: "default"
-2025-10-13 12:01:13 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
-
-Using generated security password: b622e50d-9910-48fe-be14-c8fad8b2b7a8
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2025-10-13 12:01:13 INFO  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-10-13 12:01:14 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
-2025-10-13 12:01:14 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
-2025-10-13 12:01:14 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
-2025-10-13 12:01:14 INFO  [main] c.s.c.LoginRegisterControllerTest - Started LoginRegisterControllerTest in 5.148 seconds (process running for 7.543)
-2025-10-13 12:01:14 INFO  [main] c.s.c.LoginRegisterController - Login attempt for email: test@example.com
-2025-10-13 12:01:14 INFO  [main] c.s.c.LoginRegisterController - Login successful for user: Test User
-2025-10-13 12:01:14 INFO  [main] c.s.c.LoginRegisterController - Login attempt for email: test@example.com
-2025-10-13 12:01:14 WARN  [main] c.s.c.LoginRegisterController - Login failed for email: test@example.com. Reason: Incorrect password
-2025-10-13 12:01:14 INFO  [main] c.s.c.LoginRegisterController - Received registration request for email: test@example.com
-2025-10-13 12:01:14 INFO  [main] c.s.c.LoginRegisterController - Registration successful for email: test@example.com
-2025-10-13 12:01:14 INFO  [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sca.SmartContactAppApplicationTests]: SmartContactAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-10-13 12:01:14 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sca.SmartContactAppApplication for test class com.sca.SmartContactAppApplicationTests
-2025-10-13 12:01:14 INFO  [main] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
-2025-10-13 12:01:14 INFO  [main] c.s.SmartContactAppApplicationTests - Starting SmartContactAppApplicationTests using Java 17.0.11 with PID 36520 (started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
-2025-10-13 12:01:14 DEBUG [main] c.s.SmartContactAppApplicationTests - Running with Spring Boot v3.4.10, Spring v6.2.11
-2025-10-13 12:01:14 INFO  [main] c.s.SmartContactAppApplicationTests - No active profile set, falling back to 1 default profile: "default"
-2025-10-13 12:01:15 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-13 12:01:15 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 2 JPA repository interfaces.
-2025-10-13 12:01:16 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-13 12:01:16 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-10-13 12:01:16 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-10-13 12:01:16 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-13 12:01:16 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-10-13 12:01:17 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4d40fe37
-2025-10-13 12:01:17 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-10-13 12:01:17 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-10-13 12:01:17 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.5
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-10-13 12:01:18 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-13 12:01:19 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 12:01:19 INFO  [main] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-10-13 12:01:20 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-13 12:01:20 INFO  [main] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-10-13 12:01:20 WARN  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-10-13 12:01:21 INFO  [main] c.s.SmartContactAppApplicationTests - Started SmartContactAppApplicationTests in 6.331 seconds (process running for 14.441)
-2025-10-13 12:01:21 INFO  [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sca.service.ContactServiceImplTest]: ContactServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-10-13 12:01:21 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sca.SmartContactAppApplication for test class com.sca.service.ContactServiceImplTest
-2025-10-13 12:01:21 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 101 for userId: 1
-2025-10-13 12:01:21 WARN  [main] com.sca.service.ContactServiceImpl - User not found with ID: 1
-2025-10-13 12:01:21 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to add contact for userId: 1
-2025-10-13 12:01:21 WARN  [main] com.sca.service.ContactServiceImpl - User not found with ID: 1
-2025-10-13 12:01:21 INFO  [main] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 1
-2025-10-13 12:01:21 INFO  [main] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 1
-2025-10-13 12:01:21 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 101 for userId: 1
-2025-10-13 12:01:21 WARN  [main] com.sca.service.ContactServiceImpl - Contact does not belong to userId: 1
-2025-10-13 12:01:21 INFO  [main] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 1
-2025-10-13 12:01:21 WARN  [main] com.sca.service.ContactServiceImpl - User not found with ID: 1
-2025-10-13 12:01:21 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to add contact for userId: 1
-2025-10-13 12:01:21 INFO  [main] com.sca.service.ContactServiceImpl - Contact added successfully for userId: 1
-2025-10-13 12:01:21 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 101 for userId: 1
-2025-10-13 12:01:21 INFO  [main] com.sca.service.ContactServiceImpl - Contact deleted successfully. cid: 101, userId: 1
-2025-10-13 12:01:21 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 101 for userId: 1
-2025-10-13 12:01:21 WARN  [main] com.sca.service.ContactServiceImpl - Contact not found with cid: 101
-2025-10-13 12:01:21 INFO  [main] c.s.service.LoginRegisterServiceImpl - Attempting to register user with email: test@example.com
-2025-10-13 12:01:21 INFO  [main] c.s.service.LoginRegisterServiceImpl - User registered successfully: test@example.com
-2025-10-13 12:01:21 WARN  [main] c.s.service.LoginRegisterServiceImpl - Login failed: User not found with email: unknown@example.com
-2025-10-13 12:01:21 WARN  [main] c.s.service.LoginRegisterServiceImpl - Login failed: Incorrect password for email: test@example.com
-2025-10-13 12:01:21 INFO  [main] c.s.service.LoginRegisterServiceImpl - Attempting to register user with email: test@example.com
-2025-10-13 12:01:21 ERROR [main] c.s.service.LoginRegisterServiceImpl - User registration failed for email: test@example.com
-2025-10-13 12:01:21 INFO  [main] c.s.service.LoginRegisterServiceImpl - Attempting to register user with email: test@example.com
-2025-10-13 12:01:21 WARN  [main] c.s.service.LoginRegisterServiceImpl - Registration failed: Email already registered - test@example.com
-2025-10-13 12:01:22 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 12:01:22 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-10-13 12:01:22 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-10-13 12:03:56 INFO  [main] c.s.c.LoginRegisterControllerTest - Starting LoginRegisterControllerTest using Java 17.0.11 with PID 33856 (started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
-2025-10-13 12:03:56 DEBUG [main] c.s.c.LoginRegisterControllerTest - Running with Spring Boot v3.4.10, Spring v6.2.11
-2025-10-13 12:03:56 INFO  [main] c.s.c.LoginRegisterControllerTest - No active profile set, falling back to 1 default profile: "default"
-2025-10-13 12:04:00 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
-
-Using generated security password: 39ab866e-fac6-4fd2-b550-6c3d4915cfbb
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2025-10-13 12:04:00 INFO  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-10-13 12:04:00 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
-2025-10-13 12:04:00 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
-2025-10-13 12:04:00 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
-2025-10-13 12:04:00 INFO  [main] c.s.c.LoginRegisterControllerTest - Started LoginRegisterControllerTest in 5.341 seconds (process running for 7.773)
-2025-10-13 12:04:01 INFO  [main] c.s.c.LoginRegisterController - Login attempt for email: test@example.com
-2025-10-13 12:04:01 INFO  [main] c.s.c.LoginRegisterController - Login successful for user: Test User
-2025-10-13 12:04:01 INFO  [main] c.s.c.LoginRegisterController - Login attempt for email: test@example.com
-2025-10-13 12:04:01 WARN  [main] c.s.c.LoginRegisterController - Login failed for email: test@example.com. Reason: Incorrect password
-2025-10-13 12:04:01 INFO  [main] c.s.c.LoginRegisterController - Received registration request for email: test@example.com
-2025-10-13 12:04:01 INFO  [main] c.s.c.LoginRegisterController - Registration successful for email: test@example.com
-2025-10-13 12:04:01 INFO  [main] com.sca.controller.UserController - Received request to add contact for userId: 1
-2025-10-13 12:04:01 WARN  [main] com.sca.controller.UserController - Failed to add contact for userId: 1. Reason: Failed to add contact
-2025-10-13 12:04:01 INFO  [main] com.sca.controller.UserController - Fetching contacts for userId: 1
-2025-10-13 12:04:01 INFO  [main] com.sca.controller.UserController - Contacts retrieved successfully for userId: 1
-2025-10-13 12:04:01 INFO  [main] com.sca.controller.UserController - Request to delete contact with cid: 100 for userId: 1
-2025-10-13 12:04:01 INFO  [main] com.sca.controller.UserController - Contact deleted successfully. cid: 100, userId: 1
-2025-10-13 12:04:01 INFO  [main] com.sca.controller.UserController - Request to delete contact with cid: 100 for userId: 1
-2025-10-13 12:04:01 WARN  [main] com.sca.controller.UserController - Delete failed for cid: 100, userId: 1. Reason: User not found.
-2025-10-13 12:04:01 INFO  [main] com.sca.controller.UserController - Fetching contacts for userId: 1
-2025-10-13 12:04:01 WARN  [main] com.sca.controller.UserController - Failed to retrieve contacts for userId: 1. Reason: User not found
-2025-10-13 12:04:01 INFO  [main] com.sca.controller.UserController - Request to delete contact with cid: 100 for userId: 1
-2025-10-13 12:04:01 ERROR [main] com.sca.controller.UserController - Unexpected error while deleting contact. cid: 100, userId: 1
-2025-10-13 12:04:01 INFO  [main] com.sca.controller.UserController - Received request to add contact for userId: 1
-2025-10-13 12:04:01 INFO  [main] com.sca.controller.UserController - Contact added successfully for userId: 1
-2025-10-13 12:04:01 INFO  [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sca.SmartContactAppApplicationTests]: SmartContactAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-10-13 12:04:01 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sca.SmartContactAppApplication for test class com.sca.SmartContactAppApplicationTests
-2025-10-13 12:04:01 INFO  [main] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
-2025-10-13 12:04:01 INFO  [main] c.s.SmartContactAppApplicationTests - Starting SmartContactAppApplicationTests using Java 17.0.11 with PID 33856 (started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
-2025-10-13 12:04:01 DEBUG [main] c.s.SmartContactAppApplicationTests - Running with Spring Boot v3.4.10, Spring v6.2.11
-2025-10-13 12:04:01 INFO  [main] c.s.SmartContactAppApplicationTests - No active profile set, falling back to 1 default profile: "default"
-2025-10-13 12:04:02 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-13 12:04:02 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79 ms. Found 2 JPA repository interfaces.
-2025-10-13 12:04:03 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-13 12:04:03 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-10-13 12:04:03 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-10-13 12:04:03 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-13 12:04:03 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-10-13 12:04:04 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a0ce603
-2025-10-13 12:04:04 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-10-13 12:04:04 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-10-13 12:04:04 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.5
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-10-13 12:04:06 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-13 12:04:06 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 12:04:06 INFO  [main] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-10-13 12:04:07 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-13 12:04:07 INFO  [main] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-10-13 12:04:07 WARN  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-10-13 12:04:08 INFO  [main] c.s.SmartContactAppApplicationTests - Started SmartContactAppApplicationTests in 6.496 seconds (process running for 15.017)
-2025-10-13 12:04:08 INFO  [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sca.service.ContactServiceImplTest]: ContactServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-10-13 12:04:08 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sca.SmartContactAppApplication for test class com.sca.service.ContactServiceImplTest
-2025-10-13 12:04:08 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 101 for userId: 1
-2025-10-13 12:04:08 WARN  [main] com.sca.service.ContactServiceImpl - User not found with ID: 1
-2025-10-13 12:04:08 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to add contact for userId: 1
-2025-10-13 12:04:08 WARN  [main] com.sca.service.ContactServiceImpl - User not found with ID: 1
-2025-10-13 12:04:08 INFO  [main] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 1
-2025-10-13 12:04:08 INFO  [main] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 1
-2025-10-13 12:04:08 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 101 for userId: 1
-2025-10-13 12:04:08 WARN  [main] com.sca.service.ContactServiceImpl - Contact does not belong to userId: 1
-2025-10-13 12:04:08 INFO  [main] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 1
-2025-10-13 12:04:08 WARN  [main] com.sca.service.ContactServiceImpl - User not found with ID: 1
-2025-10-13 12:04:08 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to add contact for userId: 1
-2025-10-13 12:04:08 INFO  [main] com.sca.service.ContactServiceImpl - Contact added successfully for userId: 1
-2025-10-13 12:04:08 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 101 for userId: 1
-2025-10-13 12:04:08 INFO  [main] com.sca.service.ContactServiceImpl - Contact deleted successfully. cid: 101, userId: 1
-2025-10-13 12:04:08 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 101 for userId: 1
-2025-10-13 12:04:08 WARN  [main] com.sca.service.ContactServiceImpl - Contact not found with cid: 101
-2025-10-13 12:04:08 INFO  [main] c.s.service.LoginRegisterServiceImpl - Attempting to register user with email: test@example.com
-2025-10-13 12:04:08 INFO  [main] c.s.service.LoginRegisterServiceImpl - User registered successfully: test@example.com
-2025-10-13 12:04:08 WARN  [main] c.s.service.LoginRegisterServiceImpl - Login failed: User not found with email: unknown@example.com
-2025-10-13 12:04:08 WARN  [main] c.s.service.LoginRegisterServiceImpl - Login failed: Incorrect password for email: test@example.com
-2025-10-13 12:04:08 INFO  [main] c.s.service.LoginRegisterServiceImpl - Attempting to register user with email: test@example.com
-2025-10-13 12:04:08 ERROR [main] c.s.service.LoginRegisterServiceImpl - User registration failed for email: test@example.com
-2025-10-13 12:04:08 INFO  [main] c.s.service.LoginRegisterServiceImpl - Attempting to register user with email: test@example.com
-2025-10-13 12:04:08 WARN  [main] c.s.service.LoginRegisterServiceImpl - Registration failed: Email already registered - test@example.com
-2025-10-13 12:04:09 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 12:04:09 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-10-13 12:04:09 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-10-13 12:04:38 INFO  [main] c.s.c.LoginRegisterControllerTest - Starting LoginRegisterControllerTest using Java 17.0.11 with PID 25808 (started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
-2025-10-13 12:04:38 DEBUG [main] c.s.c.LoginRegisterControllerTest - Running with Spring Boot v3.4.10, Spring v6.2.11
-2025-10-13 12:04:38 INFO  [main] c.s.c.LoginRegisterControllerTest - No active profile set, falling back to 1 default profile: "default"
-2025-10-13 12:04:42 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
-
-Using generated security password: ed53c53c-5c9d-41f1-b7f3-0652d959b7a4
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2025-10-13 12:04:42 INFO  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-10-13 12:04:43 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
-2025-10-13 12:04:43 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
-2025-10-13 12:04:43 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
-2025-10-13 12:04:43 INFO  [main] c.s.c.LoginRegisterControllerTest - Started LoginRegisterControllerTest in 5.142 seconds (process running for 7.537)
-2025-10-13 12:04:43 INFO  [main] c.s.c.LoginRegisterController - Login attempt for email: test@example.com
-2025-10-13 12:04:43 INFO  [main] c.s.c.LoginRegisterController - Login successful for user: Test User
-2025-10-13 12:04:43 INFO  [main] c.s.c.LoginRegisterController - Login attempt for email: test@example.com
-2025-10-13 12:04:43 WARN  [main] c.s.c.LoginRegisterController - Login failed for email: test@example.com. Reason: Incorrect password
-2025-10-13 12:04:43 INFO  [main] c.s.c.LoginRegisterController - Received registration request for email: test@example.com
-2025-10-13 12:04:43 INFO  [main] c.s.c.LoginRegisterController - Registration successful for email: test@example.com
-2025-10-13 12:04:43 INFO  [main] com.sca.controller.UserController - Received request to add contact for userId: 1
-2025-10-13 12:04:43 WARN  [main] com.sca.controller.UserController - Failed to add contact for userId: 1. Reason: Failed to add contact
-2025-10-13 12:04:43 INFO  [main] com.sca.controller.UserController - Fetching contacts for userId: 1
-2025-10-13 12:04:43 INFO  [main] com.sca.controller.UserController - Contacts retrieved successfully for userId: 1
-2025-10-13 12:04:43 INFO  [main] com.sca.controller.UserController - Request to delete contact with cid: 100 for userId: 1
-2025-10-13 12:04:43 INFO  [main] com.sca.controller.UserController - Contact deleted successfully. cid: 100, userId: 1
-2025-10-13 12:04:43 INFO  [main] com.sca.controller.UserController - Request to delete contact with cid: 100 for userId: 1
-2025-10-13 12:04:43 WARN  [main] com.sca.controller.UserController - Delete failed for cid: 100, userId: 1. Reason: User not found.
-2025-10-13 12:04:43 INFO  [main] com.sca.controller.UserController - Fetching contacts for userId: 1
-2025-10-13 12:04:43 WARN  [main] com.sca.controller.UserController - Failed to retrieve contacts for userId: 1. Reason: User not found
-2025-10-13 12:04:43 INFO  [main] com.sca.controller.UserController - Request to delete contact with cid: 100 for userId: 1
-2025-10-13 12:04:43 ERROR [main] com.sca.controller.UserController - Unexpected error while deleting contact. cid: 100, userId: 1
-2025-10-13 12:04:43 INFO  [main] com.sca.controller.UserController - Received request to add contact for userId: 1
-2025-10-13 12:04:43 INFO  [main] com.sca.controller.UserController - Contact added successfully for userId: 1
-2025-10-13 12:04:43 INFO  [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sca.SmartContactAppApplicationTests]: SmartContactAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-10-13 12:04:43 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sca.SmartContactAppApplication for test class com.sca.SmartContactAppApplicationTests
-2025-10-13 12:04:43 INFO  [main] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
-2025-10-13 12:04:44 INFO  [main] c.s.SmartContactAppApplicationTests - Starting SmartContactAppApplicationTests using Java 17.0.11 with PID 25808 (started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
-2025-10-13 12:04:44 DEBUG [main] c.s.SmartContactAppApplicationTests - Running with Spring Boot v3.4.10, Spring v6.2.11
-2025-10-13 12:04:44 INFO  [main] c.s.SmartContactAppApplicationTests - No active profile set, falling back to 1 default profile: "default"
-2025-10-13 12:04:44 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-13 12:04:44 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
-2025-10-13 12:04:45 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-13 12:04:45 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-10-13 12:04:45 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-10-13 12:04:46 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-13 12:04:46 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-10-13 12:04:46 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5dce75f9
-2025-10-13 12:04:46 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-10-13 12:04:46 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-10-13 12:04:46 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.5
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-10-13 12:04:48 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-13 12:04:49 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 12:04:49 INFO  [main] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-10-13 12:04:50 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-13 12:04:50 INFO  [main] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-10-13 12:04:50 WARN  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-10-13 12:04:51 INFO  [main] c.s.SmartContactAppApplicationTests - Started SmartContactAppApplicationTests in 7.211 seconds (process running for 15.509)
-2025-10-13 12:04:51 INFO  [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sca.service.ContactServiceImplTest]: ContactServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-10-13 12:04:51 INFO  [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sca.SmartContactAppApplication for test class com.sca.service.ContactServiceImplTest
-2025-10-13 12:04:51 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 101 for userId: 1
-2025-10-13 12:04:51 WARN  [main] com.sca.service.ContactServiceImpl - User not found with ID: 1
-2025-10-13 12:04:51 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to add contact for userId: 1
-2025-10-13 12:04:51 WARN  [main] com.sca.service.ContactServiceImpl - User not found with ID: 1
-2025-10-13 12:04:51 INFO  [main] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 1
-2025-10-13 12:04:51 INFO  [main] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 1
-2025-10-13 12:04:51 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 101 for userId: 1
-2025-10-13 12:04:51 WARN  [main] com.sca.service.ContactServiceImpl - Contact does not belong to userId: 1
-2025-10-13 12:04:51 INFO  [main] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 1
-2025-10-13 12:04:51 WARN  [main] com.sca.service.ContactServiceImpl - User not found with ID: 1
-2025-10-13 12:04:51 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to add contact for userId: 1
-2025-10-13 12:04:51 INFO  [main] com.sca.service.ContactServiceImpl - Contact added successfully for userId: 1
-2025-10-13 12:04:51 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 101 for userId: 1
-2025-10-13 12:04:51 INFO  [main] com.sca.service.ContactServiceImpl - Contact deleted successfully. cid: 101, userId: 1
-2025-10-13 12:04:51 INFO  [main] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 101 for userId: 1
-2025-10-13 12:04:51 WARN  [main] com.sca.service.ContactServiceImpl - Contact not found with cid: 101
-2025-10-13 12:04:51 INFO  [main] c.s.service.LoginRegisterServiceImpl - Attempting to register user with email: test@example.com
-2025-10-13 12:04:51 INFO  [main] c.s.service.LoginRegisterServiceImpl - User registered successfully: test@example.com
-2025-10-13 12:04:51 WARN  [main] c.s.service.LoginRegisterServiceImpl - Login failed: User not found with email: unknown@example.com
-2025-10-13 12:04:51 WARN  [main] c.s.service.LoginRegisterServiceImpl - Login failed: Incorrect password for email: test@example.com
-2025-10-13 12:04:51 INFO  [main] c.s.service.LoginRegisterServiceImpl - Attempting to register user with email: test@example.com
-2025-10-13 12:04:51 ERROR [main] c.s.service.LoginRegisterServiceImpl - User registration failed for email: test@example.com
-2025-10-13 12:04:51 INFO  [main] c.s.service.LoginRegisterServiceImpl - Attempting to register user with email: test@example.com
-2025-10-13 12:04:51 WARN  [main] c.s.service.LoginRegisterServiceImpl - Registration failed: Email already registered - test@example.com
-2025-10-13 12:04:52 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 12:04:52 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-10-13 12:04:52 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-10-13 12:08:02 INFO  [restartedMain] com.sca.SmartContactAppApplication - Starting SmartContactAppApplication using Java 17.0.11 with PID 3572 (C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App\target\classes started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
-2025-10-13 12:08:02 DEBUG [restartedMain] com.sca.SmartContactAppApplication - Running with Spring Boot v3.4.10, Spring v6.2.11
-2025-10-13 12:08:02 INFO  [restartedMain] com.sca.SmartContactAppApplication - No active profile set, falling back to 1 default profile: "default"
-2025-10-13 12:08:02 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-10-13 12:08:02 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-10-13 12:08:03 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-13 12:08:03 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
-2025-10-13 12:08:03 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
-2025-10-13 12:08:03 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-10-13 12:08:03 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-10-13 12:08:03 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-10-13 12:08:03 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1557 ms
-2025-10-13 12:08:03 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-13 12:08:03 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-10-13 12:08:04 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-10-13 12:08:04 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-13 12:08:04 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-10-13 12:08:04 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@50eb00d1
-2025-10-13 12:08:04 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-10-13 12:08:04 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-10-13 12:08:04 INFO  [restartedMain] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.5
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-10-13 12:08:05 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-13 12:08:05 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 12:08:06 INFO  [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-10-13 12:08:06 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-13 12:08:06 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-10-13 12:08:06 WARN  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-10-13 12:08:07 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2025-10-13 12:08:07 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
-2025-10-13 12:08:07 INFO  [restartedMain] com.sca.SmartContactAppApplication - Started SmartContactAppApplication in 5.797 seconds (process running for 6.51)
-2025-10-13 12:08:29 INFO  [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-13 12:08:29 INFO  [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-10-13 12:08:29 INFO  [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
-2025-10-13 12:08:29 INFO  [http-nio-8081-exec-2] c.s.c.LoginRegisterController - Login attempt for email: yashckt1997@gmail.com
-2025-10-13 12:08:29 INFO  [http-nio-8081-exec-2] c.s.c.LoginRegisterController - Login successful for user: Vivek Raikawar
-2025-10-13 12:08:57 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-10-13 12:08:57 INFO  [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-13 12:08:57 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-10-13 12:08:57 INFO  [Thread-5] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 12:08:57 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-10-13 12:08:57 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-10-13 12:08:57 INFO  [restartedMain] com.sca.SmartContactAppApplication - Starting SmartContactAppApplication using Java 17.0.11 with PID 3572 (C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App\target\classes started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
-2025-10-13 12:08:57 DEBUG [restartedMain] com.sca.SmartContactAppApplication - Running with Spring Boot v3.4.10, Spring v6.2.11
-2025-10-13 12:08:57 INFO  [restartedMain] com.sca.SmartContactAppApplication - No active profile set, falling back to 1 default profile: "default"
-2025-10-13 12:08:58 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-13 12:08:58 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces.
-2025-10-13 12:08:58 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
-2025-10-13 12:08:58 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-10-13 12:08:58 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-10-13 12:08:58 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-10-13 12:08:58 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 516 ms
-2025-10-13 12:08:58 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-13 12:08:58 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-10-13 12:08:58 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-13 12:08:58 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
-2025-10-13 12:08:58 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@7986a60a
-2025-10-13 12:08:58 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
-2025-10-13 12:08:58 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-10-13 12:08:58 INFO  [restartedMain] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-10-24 09:32:20 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-24 09:32:20 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-24 09:32:21 INFO  [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-24 09:32:22 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-24 09:32:22 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-24 09:32:22 WARN  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-24 09:32:22 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-24 09:32:22 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-24 09:32:22 INFO  [restartedMain] com.sca.SmartContactAppApplication - Started SmartContactAppApplication in 8.012 seconds (process running for 8.912)
+2025-10-24 09:33:28 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-10-24 09:33:28 INFO  [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-24 09:33:28 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-24 09:33:28 INFO  [Thread-5] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-24 09:33:28 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-24 09:33:28 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-24 09:33:28 INFO  [restartedMain] com.sca.SmartContactAppApplication - Starting SmartContactAppApplication using Java 17.0.11 with PID 27568 (C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App\target\classes started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
+2025-10-24 09:33:28 DEBUG [restartedMain] com.sca.SmartContactAppApplication - Running with Spring Boot v3.4.10, Spring v6.2.11
+2025-10-24 09:33:28 INFO  [restartedMain] com.sca.SmartContactAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-24 09:33:28 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-24 09:33:28 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces.
+2025-10-24 09:33:28 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-24 09:33:28 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-24 09:33:28 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-24 09:33:28 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-24 09:33:28 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 425 ms
+2025-10-24 09:33:29 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-24 09:33:29 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-24 09:33:29 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-24 09:33:29 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-10-24 09:33:29 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@6fb269a4
+2025-10-24 09:33:29 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-10-24 09:33:29 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-24 09:33:29 INFO  [restartedMain] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
 	Database driver: undefined/unknown
 	Database version: 17.5
@@ -481,119 +67,325 @@ This generated password is for development use only. Your security configuration
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-13 12:08:58 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-13 12:08:58 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 12:08:59 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-13 12:08:59 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-10-13 12:08:59 WARN  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-10-13 12:08:59 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2025-10-13 12:08:59 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
-2025-10-13 12:08:59 INFO  [restartedMain] com.sca.SmartContactAppApplication - Started SmartContactAppApplication in 1.288 seconds (process running for 58.159)
-2025-10-13 12:08:59 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-2025-10-13 12:09:35 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-10-13 12:09:35 INFO  [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-13 12:09:36 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-10-13 12:09:36 INFO  [Thread-7] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 12:09:36 INFO  [Thread-7] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
-2025-10-13 12:09:36 INFO  [Thread-7] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
-2025-10-13 12:09:36 INFO  [restartedMain] com.sca.SmartContactAppApplication - Starting SmartContactAppApplication using Java 17.0.11 with PID 3572 (C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App\target\classes started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
-2025-10-13 12:09:36 DEBUG [restartedMain] com.sca.SmartContactAppApplication - Running with Spring Boot v3.4.10, Spring v6.2.11
-2025-10-13 12:09:36 INFO  [restartedMain] com.sca.SmartContactAppApplication - No active profile set, falling back to 1 default profile: "default"
-2025-10-13 12:09:36 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-13 12:09:36 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces.
-2025-10-13 12:09:36 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
-2025-10-13 12:09:36 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-10-13 12:09:36 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-10-13 12:09:36 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-10-13 12:09:36 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 403 ms
-2025-10-13 12:09:36 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-13 12:09:36 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-10-13 12:09:36 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-13 12:09:36 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
-2025-10-13 12:09:36 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@7b65adee
-2025-10-13 12:09:36 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
-2025-10-13 12:09:36 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-10-13 12:09:36 INFO  [restartedMain] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+2025-10-24 09:33:29 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-24 09:33:29 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-24 09:33:29 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-24 09:33:29 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-24 09:33:29 WARN  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-24 09:33:29 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-24 09:33:29 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-24 09:33:29 INFO  [restartedMain] com.sca.SmartContactAppApplication - Started SmartContactAppApplication in 1.166 seconds (process running for 75.624)
+2025-10-24 09:33:29 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-10-24 09:33:30 INFO  [RMI TCP Connection(5)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-24 09:33:30 INFO  [RMI TCP Connection(5)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-24 09:33:31 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-24 09:33:31 INFO  [RMI TCP Connection(5)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-24 09:33:31 INFO  [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-10-24 09:33:31 INFO  [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-10-24 10:09:51 INFO  [restartedMain] com.sca.SmartContactAppApplication - Starting SmartContactAppApplication using Java 17.0.11 with PID 31704 (C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App\target\classes started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
+2025-10-24 10:09:51 DEBUG [restartedMain] com.sca.SmartContactAppApplication - Running with Spring Boot v3.4.10, Spring v6.2.11
+2025-10-24 10:09:51 INFO  [restartedMain] com.sca.SmartContactAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-24 10:09:51 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-24 10:09:51 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-24 10:09:52 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-24 10:09:52 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2025-10-24 10:09:53 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-24 10:09:53 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-24 10:09:53 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-24 10:09:53 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-24 10:09:53 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1508 ms
+2025-10-24 10:09:53 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-24 10:09:53 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-24 10:09:53 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-24 10:09:54 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-24 10:09:54 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-24 10:09:54 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2df2e83a
+2025-10-24 10:09:54 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-24 10:09:54 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-24 10:09:54 INFO  [restartedMain] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.5
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-13 12:09:36 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-13 12:09:36 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 12:09:37 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-13 12:09:37 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-10-13 12:09:37 WARN  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-10-13 12:09:37 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2025-10-13 12:09:37 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
-2025-10-13 12:09:37 INFO  [restartedMain] com.sca.SmartContactAppApplication - Started SmartContactAppApplication in 1.104 seconds (process running for 96.167)
-2025-10-13 12:09:37 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-2025-10-13 12:09:57 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-10-13 12:09:57 INFO  [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-13 12:09:57 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-10-13 12:09:57 INFO  [Thread-11] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 12:09:57 INFO  [Thread-11] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
-2025-10-13 12:09:57 INFO  [Thread-11] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
-2025-10-13 12:09:57 INFO  [restartedMain] com.sca.SmartContactAppApplication - Starting SmartContactAppApplication using Java 17.0.11 with PID 3572 (C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App\target\classes started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
-2025-10-13 12:09:57 DEBUG [restartedMain] com.sca.SmartContactAppApplication - Running with Spring Boot v3.4.10, Spring v6.2.11
-2025-10-13 12:09:57 INFO  [restartedMain] com.sca.SmartContactAppApplication - No active profile set, falling back to 1 default profile: "default"
-2025-10-13 12:09:57 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-13 12:09:57 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
-2025-10-13 12:09:58 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
-2025-10-13 12:09:58 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-10-13 12:09:58 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-10-13 12:09:58 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-10-13 12:09:58 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 433 ms
-2025-10-13 12:09:58 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-13 12:09:58 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-10-13 12:09:58 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-13 12:09:58 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
-2025-10-13 12:09:58 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@24a1dabc
-2025-10-13 12:09:58 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
-2025-10-13 12:09:58 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-10-13 12:09:58 INFO  [restartedMain] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+2025-10-24 10:09:55 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-24 10:09:55 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-24 10:09:56 INFO  [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-24 10:09:56 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-24 10:09:56 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-24 10:09:56 WARN  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-24 10:09:57 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-24 10:09:57 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-24 10:09:57 INFO  [restartedMain] com.sca.SmartContactAppApplication - Started SmartContactAppApplication in 6.08 seconds (process running for 6.783)
+2025-10-24 10:10:11 INFO  [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-24 10:10:11 INFO  [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-24 10:10:11 INFO  [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-24 10:10:12 WARN  [http-nio-8081-exec-10] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [jakarta.servlet.ServletException: Handler dispatch failed: java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)']
+2025-10-24 10:10:52 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-24 10:10:52 INFO  [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-24 10:10:52 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-24 10:10:52 INFO  [Thread-5] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-24 10:10:52 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-24 10:10:52 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-24 10:10:52 INFO  [restartedMain] com.sca.SmartContactAppApplication - Starting SmartContactAppApplication using Java 17.0.11 with PID 31704 (C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App\target\classes started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
+2025-10-24 10:10:52 DEBUG [restartedMain] com.sca.SmartContactAppApplication - Running with Spring Boot v3.4.10, Spring v6.2.11
+2025-10-24 10:10:52 INFO  [restartedMain] com.sca.SmartContactAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-24 10:10:53 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-24 10:10:53 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2025-10-24 10:10:53 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-24 10:10:53 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-24 10:10:53 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-24 10:10:53 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-24 10:10:53 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 381 ms
+2025-10-24 10:10:53 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-24 10:10:53 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-24 10:10:53 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-24 10:10:53 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-10-24 10:10:53 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@6b9e0e77
+2025-10-24 10:10:53 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-10-24 10:10:53 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-24 10:10:53 INFO  [restartedMain] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
 	Database driver: undefined/unknown
 	Database version: 17.5
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-13 12:09:58 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-13 12:09:58 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-13 12:09:58 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-13 12:09:58 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-10-13 12:09:58 WARN  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-10-13 12:09:58 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2025-10-13 12:09:58 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
-2025-10-13 12:09:58 INFO  [restartedMain] com.sca.SmartContactAppApplication - Started SmartContactAppApplication in 1.114 seconds (process running for 117.684)
-2025-10-13 12:09:58 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-2025-10-13 12:10:17 INFO  [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-13 12:10:17 INFO  [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-10-13 12:10:17 INFO  [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2025-10-13 12:10:17 INFO  [http-nio-8081-exec-1] c.s.c.LoginRegisterController - Login attempt for email: yashckt1997@gmail.com
-2025-10-13 12:10:17 INFO  [http-nio-8081-exec-1] c.s.c.LoginRegisterController - Login successful for user: Vivek Raikawar
-2025-10-13 12:10:50 INFO  [http-nio-8081-exec-2] com.sca.controller.UserController - Fetching contacts for userId: 202
-2025-10-13 12:10:50 INFO  [http-nio-8081-exec-2] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
-2025-10-13 12:10:50 INFO  [http-nio-8081-exec-2] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
-2025-10-13 12:10:50 INFO  [http-nio-8081-exec-2] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
-2025-10-13 12:10:53 INFO  [http-nio-8081-exec-4] com.sca.controller.UserController - Request to delete contact with cid: 2 for userId: 202
-2025-10-13 12:10:53 INFO  [http-nio-8081-exec-4] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 2 for userId: 202
-2025-10-13 12:10:53 INFO  [http-nio-8081-exec-4] com.sca.service.ContactServiceImpl - Contact deleted successfully. cid: 2, userId: 202
-2025-10-13 12:10:53 INFO  [http-nio-8081-exec-4] com.sca.controller.UserController - Contact deleted successfully. cid: 2, userId: 202
-2025-10-13 12:10:53 INFO  [http-nio-8081-exec-5] com.sca.controller.UserController - Fetching contacts for userId: 202
-2025-10-13 12:10:53 INFO  [http-nio-8081-exec-5] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
-2025-10-13 12:10:53 INFO  [http-nio-8081-exec-5] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
-2025-10-13 12:10:53 INFO  [http-nio-8081-exec-5] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
-2025-10-13 12:11:32 INFO  [http-nio-8081-exec-7] com.sca.controller.UserController - Received request to add contact for userId: 202
-2025-10-13 12:11:32 INFO  [http-nio-8081-exec-7] com.sca.service.ContactServiceImpl - Attempting to add contact for userId: 202
-2025-10-13 12:11:32 INFO  [http-nio-8081-exec-7] com.sca.service.ContactServiceImpl - Contact added successfully for userId: 202
-2025-10-13 12:11:32 INFO  [http-nio-8081-exec-7] com.sca.controller.UserController - Contact added successfully for userId: 202
-2025-10-13 12:11:34 INFO  [http-nio-8081-exec-8] com.sca.controller.UserController - Fetching contacts for userId: 202
-2025-10-13 12:11:34 INFO  [http-nio-8081-exec-8] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
-2025-10-13 12:11:34 INFO  [http-nio-8081-exec-8] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
-2025-10-13 12:11:34 INFO  [http-nio-8081-exec-8] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
-2025-10-13 12:19:51 WARN  [http-nio-8081-exec-10] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
-2025-10-13 12:19:51 WARN  [http-nio-8081-exec-1] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-24 10:10:53 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-24 10:10:53 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-24 10:10:53 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-24 10:10:53 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-24 10:10:53 WARN  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-24 10:10:54 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-24 10:10:54 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-24 10:10:54 INFO  [restartedMain] com.sca.SmartContactAppApplication - Started SmartContactAppApplication in 1.073 seconds (process running for 63.423)
+2025-10-24 10:10:54 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-10-24 10:11:10 INFO  [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-24 10:11:10 INFO  [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-24 10:11:10 INFO  [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-24 10:11:10 WARN  [http-nio-8081-exec-9] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [jakarta.servlet.ServletException: Handler dispatch failed: java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)']
+2025-10-24 10:12:54 INFO  [RMI TCP Connection(5)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-24 10:12:54 INFO  [RMI TCP Connection(5)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-24 10:12:54 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-24 10:12:54 INFO  [RMI TCP Connection(5)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-24 10:12:54 INFO  [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-10-24 10:12:54 INFO  [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-10-24 10:14:44 INFO  [restartedMain] com.sca.SmartContactAppApplication - Starting SmartContactAppApplication using Java 17.0.11 with PID 8828 (C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App\target\classes started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
+2025-10-24 10:14:44 DEBUG [restartedMain] com.sca.SmartContactAppApplication - Running with Spring Boot v3.1.4, Spring v6.0.12
+2025-10-24 10:14:44 INFO  [restartedMain] com.sca.SmartContactAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-24 10:14:44 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-24 10:14:44 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-24 10:14:45 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-24 10:14:45 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+2025-10-24 10:14:46 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-10-24 10:14:46 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-24 10:14:46 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2025-10-24 10:14:46 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-24 10:14:46 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1527 ms
+2025-10-24 10:14:46 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-24 10:14:46 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-10-24 10:14:46 INFO  [restartedMain] org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2025-10-24 10:14:46 INFO  [restartedMain] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-10-24 10:14:46 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-24 10:14:46 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-24 10:14:47 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@136b5343
+2025-10-24 10:14:47 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-24 10:14:47 INFO  [restartedMain] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-10-24 10:14:48 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-10-24 10:14:48 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-24 10:14:48 INFO  [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-24 10:14:48 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-24 10:14:49 INFO  [restartedMain] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3cbd5d99, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@257a30ed, org.springframework.security.web.context.SecurityContextHolderFilter@7eb6140c, org.springframework.security.web.header.HeaderWriterFilter@698e5868, org.springframework.security.web.authentication.logout.LogoutFilter@2b43df8a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7d3c9c47, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bbfcd7a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7bfccdfd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53a78fbf, org.springframework.security.web.access.ExceptionTranslationFilter@6822e2ce, org.springframework.security.web.access.intercept.AuthorizationFilter@4b0c53f5]
+2025-10-24 10:14:49 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-24 10:14:49 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-10-24 10:14:49 INFO  [restartedMain] com.sca.SmartContactAppApplication - Started SmartContactAppApplication in 5.219 seconds (process running for 5.927)
+2025-10-24 10:14:57 INFO  [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-24 10:14:57 INFO  [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-24 10:14:57 INFO  [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-24 10:14:58 INFO  [http-nio-8081-exec-9] o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 258 ms
+2025-10-24 10:15:18 INFO  [http-nio-8081-exec-10] com.sca.controller.UserController - Fetching contacts for userId: 2022
+2025-10-24 10:15:18 INFO  [http-nio-8081-exec-10] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 2022
+2025-10-24 10:15:18 WARN  [http-nio-8081-exec-10] com.sca.service.ContactServiceImpl - User not found with ID: 2022
+2025-10-24 10:15:18 WARN  [http-nio-8081-exec-10] com.sca.controller.UserController - Failed to retrieve contacts for userId: 2022. Reason: User not found with ID: 2022
+2025-10-24 10:15:27 INFO  [http-nio-8081-exec-1] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:15:27 INFO  [http-nio-8081-exec-1] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:15:27 INFO  [http-nio-8081-exec-1] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
+2025-10-24 10:15:27 INFO  [http-nio-8081-exec-1] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:16:29 INFO  [http-nio-8081-exec-6] com.sca.controller.UserController - Request to update contact with id: 0 for userId: 1
+2025-10-24 10:16:29 INFO  [http-nio-8081-exec-6] com.sca.service.ContactServiceImpl - Attempting to update contact for userId: 1
+2025-10-24 10:16:29 WARN  [http-nio-8081-exec-6] com.sca.service.ContactServiceImpl - User not found with ID: 1
+2025-10-24 10:16:29 WARN  [http-nio-8081-exec-6] com.sca.controller.UserController - Update failed for contactId: 0, userId: 1. Reason: User not found with ID: 1
+2025-10-24 10:16:40 INFO  [http-nio-8081-exec-8] com.sca.controller.UserController - Request to update contact with id: 0 for userId: 202
+2025-10-24 10:16:40 INFO  [http-nio-8081-exec-8] com.sca.service.ContactServiceImpl - Attempting to update contact for userId: 202
+2025-10-24 10:16:40 WARN  [http-nio-8081-exec-8] com.sca.service.ContactServiceImpl - Contact not found with ID: 0
+2025-10-24 10:16:40 WARN  [http-nio-8081-exec-8] com.sca.controller.UserController - Update failed for contactId: 0, userId: 202. Reason: Contact not found with ID: 0
+2025-10-24 10:17:38 INFO  [http-nio-8081-exec-7] com.sca.controller.UserController - Request to update contact with id: 1 for userId: 202
+2025-10-24 10:17:38 INFO  [http-nio-8081-exec-7] com.sca.service.ContactServiceImpl - Attempting to update contact for userId: 202
+2025-10-24 10:17:38 INFO  [http-nio-8081-exec-7] com.sca.service.ContactServiceImpl - Contact updated successfully for userId: 202
+2025-10-24 10:17:38 INFO  [http-nio-8081-exec-7] com.sca.controller.UserController - Contact updated successfully. contactId: 1, userId: 202
+2025-10-24 10:17:47 INFO  [http-nio-8081-exec-10] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:17:47 INFO  [http-nio-8081-exec-10] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:17:47 INFO  [http-nio-8081-exec-10] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
+2025-10-24 10:17:47 INFO  [http-nio-8081-exec-10] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:21:14 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-24 10:21:14 INFO  [Thread-5] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-10-24 10:21:14 INFO  [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-10-24 10:21:14 INFO  [Thread-5] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-24 10:21:14 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-24 10:21:15 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-24 10:21:15 INFO  [restartedMain] com.sca.SmartContactAppApplication - Starting SmartContactAppApplication using Java 17.0.11 with PID 8828 (C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App\target\classes started by vraikawa in C:\Users\VRAIKAWA\Downloads\Contact-App-Backend\Smart-Contact-App)
+2025-10-24 10:21:15 DEBUG [restartedMain] com.sca.SmartContactAppApplication - Running with Spring Boot v3.1.4, Spring v6.0.12
+2025-10-24 10:21:15 INFO  [restartedMain] com.sca.SmartContactAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-24 10:21:15 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-24 10:21:15 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2025-10-24 10:21:15 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-10-24 10:21:15 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-24 10:21:15 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2025-10-24 10:21:15 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-24 10:21:15 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 411 ms
+2025-10-24 10:21:15 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-24 10:21:15 INFO  [restartedMain] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-10-24 10:21:15 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-24 10:21:15 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-10-24 10:21:15 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@635da77c
+2025-10-24 10:21:15 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-10-24 10:21:15 INFO  [restartedMain] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-10-24 10:21:15 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-10-24 10:21:15 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-24 10:21:15 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-24 10:21:16 INFO  [restartedMain] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@704db9fb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@188b75cd, org.springframework.security.web.context.SecurityContextHolderFilter@78e1cd87, org.springframework.security.web.header.HeaderWriterFilter@57d195f, org.springframework.security.web.authentication.logout.LogoutFilter@678461a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@344171ff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3067a3dd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1dd9656d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1681684, org.springframework.security.web.access.ExceptionTranslationFilter@6cc83b7f, org.springframework.security.web.access.intercept.AuthorizationFilter@5da89a52]
+2025-10-24 10:21:16 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-24 10:21:16 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-10-24 10:21:16 INFO  [restartedMain] com.sca.SmartContactAppApplication - Started SmartContactAppApplication in 1.032 seconds (process running for 392.617)
+2025-10-24 10:21:16 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-10-24 10:22:08 INFO  [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-24 10:22:08 INFO  [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-24 10:22:08 INFO  [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-10-24 10:22:08 INFO  [http-nio-8081-exec-1] com.sca.controller.UserController - Received request to add contact for userId: 202
+2025-10-24 10:22:08 INFO  [http-nio-8081-exec-1] com.sca.service.ContactServiceImpl - Attempting to add contact for userId: 202
+2025-10-24 10:22:08 INFO  [http-nio-8081-exec-1] com.sca.service.ContactServiceImpl - Contact added successfully for userId: 202
+2025-10-24 10:22:08 INFO  [http-nio-8081-exec-1] com.sca.controller.UserController - Contact added successfully for userId: 202
+2025-10-24 10:22:17 INFO  [http-nio-8081-exec-2] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:22:17 INFO  [http-nio-8081-exec-2] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:22:17 INFO  [http-nio-8081-exec-2] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
+2025-10-24 10:22:17 INFO  [http-nio-8081-exec-2] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:22:39 INFO  [http-nio-8081-exec-1] o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 86 ms
+2025-10-24 10:23:42 INFO  [http-nio-8081-exec-8] com.sca.controller.UserController - Request to update contact with id: 352 for userId: 202
+2025-10-24 10:23:42 INFO  [http-nio-8081-exec-8] com.sca.service.ContactServiceImpl - Attempting to update contact for userId: 202
+2025-10-24 10:23:42 INFO  [http-nio-8081-exec-8] com.sca.service.ContactServiceImpl - Contact updated successfully for userId: 202
+2025-10-24 10:23:42 INFO  [http-nio-8081-exec-8] com.sca.controller.UserController - Contact updated successfully. contactId: 352, userId: 202
+2025-10-24 10:23:57 INFO  [http-nio-8081-exec-7] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:23:57 INFO  [http-nio-8081-exec-7] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:23:57 INFO  [http-nio-8081-exec-7] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
+2025-10-24 10:23:57 INFO  [http-nio-8081-exec-7] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:25:13 INFO  [http-nio-8081-exec-9] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:25:13 INFO  [http-nio-8081-exec-9] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:25:13 INFO  [http-nio-8081-exec-9] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
+2025-10-24 10:25:13 INFO  [http-nio-8081-exec-9] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:39:37 INFO  [http-nio-8081-exec-3] c.s.c.LoginRegisterController - Login attempt for email: yashckt1997@gmail.com
+2025-10-24 10:39:37 INFO  [http-nio-8081-exec-3] c.s.c.LoginRegisterController - Login successful for user: Vivek Raikawar
+2025-10-24 10:39:43 INFO  [http-nio-8081-exec-2] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:39:43 INFO  [http-nio-8081-exec-2] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:39:43 INFO  [http-nio-8081-exec-2] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
+2025-10-24 10:39:43 INFO  [http-nio-8081-exec-2] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:39:49 INFO  [http-nio-8081-exec-5] com.sca.controller.UserController - Request to delete contact with cid: 302 for userId: 202
+2025-10-24 10:39:49 INFO  [http-nio-8081-exec-5] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 302 for userId: 202
+2025-10-24 10:39:49 INFO  [http-nio-8081-exec-5] com.sca.service.ContactServiceImpl - Contact deleted successfully. cid: 302, userId: 202
+2025-10-24 10:39:49 INFO  [http-nio-8081-exec-5] com.sca.controller.UserController - Contact deleted successfully. cid: 302, userId: 202
+2025-10-24 10:39:49 INFO  [http-nio-8081-exec-8] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:39:49 INFO  [http-nio-8081-exec-8] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:39:49 INFO  [http-nio-8081-exec-8] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
+2025-10-24 10:39:49 INFO  [http-nio-8081-exec-8] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:39:53 INFO  [http-nio-8081-exec-6] com.sca.controller.UserController - Request to delete contact with cid: 352 for userId: 202
+2025-10-24 10:39:53 INFO  [http-nio-8081-exec-6] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 352 for userId: 202
+2025-10-24 10:39:53 INFO  [http-nio-8081-exec-6] com.sca.service.ContactServiceImpl - Contact deleted successfully. cid: 352, userId: 202
+2025-10-24 10:39:53 INFO  [http-nio-8081-exec-6] com.sca.controller.UserController - Contact deleted successfully. cid: 352, userId: 202
+2025-10-24 10:39:53 INFO  [http-nio-8081-exec-9] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:39:53 INFO  [http-nio-8081-exec-9] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:39:53 INFO  [http-nio-8081-exec-9] com.sca.service.ContactServiceImpl - No contacts found for userId: 202
+2025-10-24 10:39:53 INFO  [http-nio-8081-exec-9] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:40:03 INFO  [http-nio-8081-exec-1] com.sca.controller.UserController - Received request to add contact for userId: 202
+2025-10-24 10:40:03 INFO  [http-nio-8081-exec-1] com.sca.service.ContactServiceImpl - Attempting to add contact for userId: 202
+2025-10-24 10:40:03 INFO  [http-nio-8081-exec-1] com.sca.service.ContactServiceImpl - Contact added successfully for userId: 202
+2025-10-24 10:40:03 INFO  [http-nio-8081-exec-1] com.sca.controller.UserController - Contact added successfully for userId: 202
+2025-10-24 10:40:05 INFO  [http-nio-8081-exec-3] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:40:05 INFO  [http-nio-8081-exec-3] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:40:05 INFO  [http-nio-8081-exec-3] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
+2025-10-24 10:40:05 INFO  [http-nio-8081-exec-3] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:40:16 INFO  [http-nio-8081-exec-4] com.sca.controller.UserController - Request to update contact with id: 353 for userId: 353
+2025-10-24 10:40:16 INFO  [http-nio-8081-exec-4] com.sca.service.ContactServiceImpl - Attempting to update contact for userId: 353
+2025-10-24 10:40:16 WARN  [http-nio-8081-exec-4] com.sca.service.ContactServiceImpl - User not found with ID: 353
+2025-10-24 10:40:16 WARN  [http-nio-8081-exec-4] com.sca.controller.UserController - Update failed for contactId: 353, userId: 353. Reason: User not found with ID: 353
+2025-10-24 10:41:02 INFO  [http-nio-8081-exec-8] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:41:02 INFO  [http-nio-8081-exec-8] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:41:03 INFO  [http-nio-8081-exec-8] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
+2025-10-24 10:41:03 INFO  [http-nio-8081-exec-8] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:41:15 INFO  [http-nio-8081-exec-7] com.sca.controller.UserController - Request to update contact with id: 353 for userId: 353
+2025-10-24 10:41:15 INFO  [http-nio-8081-exec-7] com.sca.service.ContactServiceImpl - Attempting to update contact for userId: 353
+2025-10-24 10:41:15 WARN  [http-nio-8081-exec-7] com.sca.service.ContactServiceImpl - User not found with ID: 353
+2025-10-24 10:41:15 WARN  [http-nio-8081-exec-7] com.sca.controller.UserController - Update failed for contactId: 353, userId: 353. Reason: User not found with ID: 353
+2025-10-24 10:41:58 INFO  [http-nio-8081-exec-6] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:41:58 INFO  [http-nio-8081-exec-6] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:41:58 INFO  [http-nio-8081-exec-6] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
+2025-10-24 10:41:58 INFO  [http-nio-8081-exec-6] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:42:01 INFO  [http-nio-8081-exec-9] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:42:01 INFO  [http-nio-8081-exec-9] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:42:01 INFO  [http-nio-8081-exec-9] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
+2025-10-24 10:42:01 INFO  [http-nio-8081-exec-9] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:42:04 INFO  [http-nio-8081-exec-1] com.sca.controller.UserController - Request to delete contact with cid: 353 for userId: 202
+2025-10-24 10:42:04 INFO  [http-nio-8081-exec-1] com.sca.service.ContactServiceImpl - Attempting to delete contact with cid: 353 for userId: 202
+2025-10-24 10:42:04 INFO  [http-nio-8081-exec-1] com.sca.service.ContactServiceImpl - Contact deleted successfully. cid: 353, userId: 202
+2025-10-24 10:42:04 INFO  [http-nio-8081-exec-1] com.sca.controller.UserController - Contact deleted successfully. cid: 353, userId: 202
+2025-10-24 10:42:04 INFO  [http-nio-8081-exec-3] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:42:04 INFO  [http-nio-8081-exec-3] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:42:04 INFO  [http-nio-8081-exec-3] com.sca.service.ContactServiceImpl - No contacts found for userId: 202
+2025-10-24 10:42:04 INFO  [http-nio-8081-exec-3] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:42:22 INFO  [http-nio-8081-exec-2] com.sca.controller.UserController - Received request to add contact for userId: 202
+2025-10-24 10:42:22 INFO  [http-nio-8081-exec-2] com.sca.service.ContactServiceImpl - Attempting to add contact for userId: 202
+2025-10-24 10:42:22 INFO  [http-nio-8081-exec-2] com.sca.service.ContactServiceImpl - Contact added successfully for userId: 202
+2025-10-24 10:42:22 INFO  [http-nio-8081-exec-2] com.sca.controller.UserController - Contact added successfully for userId: 202
+2025-10-24 10:42:25 INFO  [http-nio-8081-exec-4] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:42:25 INFO  [http-nio-8081-exec-4] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:42:25 INFO  [http-nio-8081-exec-4] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
+2025-10-24 10:42:25 INFO  [http-nio-8081-exec-4] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:42:40 INFO  [http-nio-8081-exec-8] com.sca.controller.UserController - Request to update contact with id: 354 for userId: 354
+2025-10-24 10:42:40 INFO  [http-nio-8081-exec-8] com.sca.service.ContactServiceImpl - Attempting to update contact for userId: 354
+2025-10-24 10:42:40 WARN  [http-nio-8081-exec-8] com.sca.service.ContactServiceImpl - User not found with ID: 354
+2025-10-24 10:42:40 WARN  [http-nio-8081-exec-8] com.sca.controller.UserController - Update failed for contactId: 354, userId: 354. Reason: User not found with ID: 354
+2025-10-24 10:44:08 INFO  [http-nio-8081-exec-9] com.sca.controller.UserController - Request to update contact with id: 354 for userId: 202
+2025-10-24 10:44:08 INFO  [http-nio-8081-exec-9] com.sca.service.ContactServiceImpl - Attempting to update contact for userId: 202
+2025-10-24 10:44:08 INFO  [http-nio-8081-exec-9] com.sca.service.ContactServiceImpl - Contact updated successfully for userId: 202
+2025-10-24 10:44:08 INFO  [http-nio-8081-exec-9] com.sca.controller.UserController - Contact updated successfully. contactId: 354, userId: 202
+2025-10-24 10:44:36 INFO  [http-nio-8081-exec-10] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:44:36 INFO  [http-nio-8081-exec-10] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:44:36 INFO  [http-nio-8081-exec-10] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
+2025-10-24 10:44:36 INFO  [http-nio-8081-exec-10] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:44:45 INFO  [http-nio-8081-exec-1] com.sca.controller.UserController - Request to update contact with id: 354 for userId: 202
+2025-10-24 10:44:45 INFO  [http-nio-8081-exec-1] com.sca.service.ContactServiceImpl - Attempting to update contact for userId: 202
+2025-10-24 10:44:45 INFO  [http-nio-8081-exec-1] com.sca.service.ContactServiceImpl - Contact updated successfully for userId: 202
+2025-10-24 10:44:45 INFO  [http-nio-8081-exec-1] com.sca.controller.UserController - Contact updated successfully. contactId: 354, userId: 202
+2025-10-24 10:46:12 INFO  [http-nio-8081-exec-2] c.s.c.LoginRegisterController - Login attempt for email: yashckt1997@gmail.com
+2025-10-24 10:46:12 INFO  [http-nio-8081-exec-2] c.s.c.LoginRegisterController - Login successful for user: Vivek Raikawar
+2025-10-24 10:46:15 INFO  [http-nio-8081-exec-4] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:46:15 INFO  [http-nio-8081-exec-4] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:46:15 INFO  [http-nio-8081-exec-4] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
+2025-10-24 10:46:15 INFO  [http-nio-8081-exec-4] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:46:24 INFO  [http-nio-8081-exec-5] com.sca.controller.UserController - Request to update contact with id: 354 for userId: 202
+2025-10-24 10:46:24 INFO  [http-nio-8081-exec-5] com.sca.service.ContactServiceImpl - Attempting to update contact for userId: 202
+2025-10-24 10:46:24 INFO  [http-nio-8081-exec-5] com.sca.service.ContactServiceImpl - Contact updated successfully for userId: 202
+2025-10-24 10:46:24 INFO  [http-nio-8081-exec-5] com.sca.controller.UserController - Contact updated successfully. contactId: 354, userId: 202
+2025-10-24 10:48:39 INFO  [http-nio-8081-exec-7] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:48:39 INFO  [http-nio-8081-exec-7] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:48:39 INFO  [http-nio-8081-exec-7] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
+2025-10-24 10:48:39 INFO  [http-nio-8081-exec-7] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202
+2025-10-24 10:48:44 INFO  [http-nio-8081-exec-6] com.sca.controller.UserController - Request to update contact with id: 354 for userId: 202
+2025-10-24 10:48:44 INFO  [http-nio-8081-exec-6] com.sca.service.ContactServiceImpl - Attempting to update contact for userId: 202
+2025-10-24 10:48:44 INFO  [http-nio-8081-exec-6] com.sca.service.ContactServiceImpl - Contact updated successfully for userId: 202
+2025-10-24 10:48:44 INFO  [http-nio-8081-exec-6] com.sca.controller.UserController - Contact updated successfully. contactId: 354, userId: 202
+2025-10-24 10:48:44 INFO  [http-nio-8081-exec-9] com.sca.controller.UserController - Fetching contacts for userId: 202
+2025-10-24 10:48:44 INFO  [http-nio-8081-exec-9] com.sca.service.ContactServiceImpl - Fetching contacts for userId: 202
+2025-10-24 10:48:44 INFO  [http-nio-8081-exec-9] com.sca.service.ContactServiceImpl - Contacts retrieved successfully for userId: 202
+2025-10-24 10:48:44 INFO  [http-nio-8081-exec-9] com.sca.controller.UserController - Contacts retrieved successfully for userId: 202

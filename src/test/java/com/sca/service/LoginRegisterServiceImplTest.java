@@ -42,7 +42,7 @@ public class LoginRegisterServiceImplTest {
 		mockUser.setId(1);
 		mockUser.setEmail("test@example.com");
 		mockUser.setName("Test User");
-		mockUser.setPassword("$2a$10$encodedPassword"); // bcrypt encoded
+		mockUser.setPassword("$2a$10$encodedPassword");
 		mockUser.setRole("normal-user");
 		mockUser.setEnable(true);
 	}

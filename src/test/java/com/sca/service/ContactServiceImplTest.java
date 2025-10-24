@@ -88,6 +88,7 @@ public class ContactServiceImplTest {
 		assertEquals(1, response.getData().size());
 	}
 
+	
 	@Test
 	void testGetAllContactByUserId_UserNotFound() {
 		when(userRepository.findById(1)).thenReturn(Optional.empty());
@@ -98,6 +99,8 @@ public class ContactServiceImplTest {
 		assertEquals("User not found with ID: 1", response.getMessage());
 		assertNull(response.getData());
 	}
+	
+	
 
 	@Test
 	void testDeleteContactById_Success() {
@@ -109,6 +112,8 @@ public class ContactServiceImplTest {
 		assertEquals("Contact deleted successfully.", result);
 		verify(contactRepository, times(1)).deleteById(101);
 	}
+	
+	
 
 	@Test
 	void testDeleteContactById_ContactNotBelongToUser() {

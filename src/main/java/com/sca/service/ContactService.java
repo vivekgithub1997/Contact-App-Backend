@@ -11,7 +11,8 @@ public interface ContactService {
 	public AddContactResponse addContact(Contact contact, int userId) throws Exception;
 
 	public FetchContactResponse<List<Contact>> getAllContactByUserId(int userId);
-	
-	public String deleteContactById(int userId,int cid);
 
+	public String deleteContactById(int userId, int cid);
+
+	public String updateContact(int userId, Contact contact);
 }

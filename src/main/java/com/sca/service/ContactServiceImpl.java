@@ -108,4 +108,54 @@ public class ContactServiceImpl implements ContactService {
 			return "Contact not found.";
 		}
 	}
+
+	@Override
+	public String updateContact(int userId, Contact updatedContact) {
+		logger.info("Attempting to update contact for userId: {}", userId);
+		try {
+			Optional<User> userById = userRepository.findById(userId);
+			if (!userById.isPresent()) {
+				logger.warn("User not found with ID: {}", userId);
+				return "User not found with ID: " + userId;
+			}
+
+			User user = userById.get();
+			List<Contact> contacts = user.getContacts();
+
+			Optional<Contact> contactOptional = contacts.stream().filter(c -> c.getCId() == updatedContact.getCId())
+					.findFirst();
+
+			if (!contactOptional.isPresent()) {
+				logger.warn("Contact not found with ID: {}", updatedContact.getCId());
+				return "Contact not found with ID: " + updatedContact.getCId();
+			}
+
+			Contact existingContact = contactOptional.get();
+
+			// Update only non-null fields
+			if (updatedContact.getName() != null) {
+				existingContact.setName(updatedContact.getName());
+			}
+			if (updatedContact.getSecondName() != null) {
+				existingContact.setSecondName(updatedContact.getSecondName());
+			}
+			if (updatedContact.getEmail() != null) {
+				existingContact.setEmail(updatedContact.getEmail());
+			}
+			if (updatedContact.getPhone() != null) {
+				existingContact.setPhone(updatedContact.getPhone());
+			}
+			if (updatedContact.getDescription() != null) {
+				existingContact.setDescription(updatedContact.getDescription());
+			}
+
+			userRepository.save(user);
+			logger.info("Contact updated successfully for userId: {}", userId);
+			return "Contact updated successfully";
+
+		} catch (Exception e) {
+			logger.error("Error while updating contact for userId: {}: {}", userId, e.getMessage(), e);
+			return "An error occurred while updating contact: " + e.getMessage();
+		}
+	}
 }

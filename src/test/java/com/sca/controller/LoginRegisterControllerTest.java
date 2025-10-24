@@ -31,7 +31,7 @@ public class LoginRegisterControllerTest {
 	private MockMvc mockMvc;
 
 	@MockBean
-	private LoginRegisterService userService; // ✅ FIXED: Use @MockBean instead of @Autowired
+	private LoginRegisterService userService; 
 
 	private ObjectMapper objectMapper;
 	private UserRequest userRequest;
